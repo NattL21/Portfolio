@@ -1,0 +1,95 @@
+ <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link href="#" rel="stylesheet" type="text/css" />
+    <link href="Bootstrap_4.3.1/css/bootstrap.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+<!--This is the code to create the header of the profile-->
+    <header>
+      <div class="container">
+       <nav class="nav nav-fill nav-pills">
+         <!--nav-pills makes each tab a pill instead of just a link-->
+          <a class="nav-item nav-link active"  href="index.html" style="background-color:#b3ccff">Home</a> 
+          <!--Active makes the link turn blue which allows the pill  turn blue according to the page the user is on-->
+          <a class="nav-item nav-link " href="Lui_AboutMe.html">About Me</a>
+          <a class="nav-item nav-link" href="Lui_Resume.html">Work Experience</a>
+          <a class="nav-item nav-link" href="Lui_Projects.html">Projects</a>
+          <a class="nav-item nav-link" href="Lui_ContactMe.html">Contact Me</a>
+        </nav>
+      </div> 
+      <div class="container">
+        <div class="jumbotron" style="background-image:url('https://www.pixelscrapper.com/sites/default/files/styles/456_scale/public/s3fs-user-content/graphic-image/user-148/node-64495/lovestruck-paper-ombre-pink-graphic-love-valentine-white.jpg')"><!--This is to change the background of the main header-->
+         <font color="gray">
+           <h1>Natalie Lui's Engineering Portfolio</h1>
+           <p>Natalie Lui is currently a freshman at Dublin High School.</p>
+           <a href="Lui_AboutMe.html">Continue reading...</a><!--This connects the Continue readeing... to the About Me page-->
+         </font>
+       </div>
+      </div>
+    </header>
+<!--This is the code for the cards in the main body-->
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 flex-sm-row"><!--This splits the area for the words and the picture-->
+        <!--This is the first card for the Scratch project-->
+          <div class="card">
+            <div class="row">
+              <div class="col-sm-8">
+                <strong>Projects</strong>
+                <h1>Scratch Project</h1>
+                <h2>CSP</h2>
+                <div class="card-body">
+                 <p>In this project, students were instructed to pair program an app or story using Scratch.The goal of this project was to get an introduction to coding using a beginner friendly platform.</p>
+                 <a href="Lui_Projects.html">Continue reading...</a>
+                 <!--This links to the project page-->
+               </div>
+             </div>
+             <div class="col-sm-4">
+                <img class="card-img" src="Images/Scratch_Cat.png" alt="Card image" height="200px" width="145px">
+             </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 flex-sm-row">
+          <!--This is the card for the MIT App Inventor project-->
+          <div class="card">
+            <div class="row">
+              <div class="col-sm-7">
+                <strong>Projects</strong>
+               <h1>MIT App Inventor</h1>
+                <div class="card-body">
+                  <p>In this project, students pair partnered using "MIT App Inventor" to code an app. The goal of this project was to use a more challenging platform to transition out of drag-and-drop coding.</p>
+                  <a href="Lui_Projects.html">Continue reading...</a>
+                  <!--this links to the project page-->
+                </div>
+              </div>
+              <div class="col-sm-5">
+               <img class="card-img" src="Images/MitAppInventorLogo.png" alt="Card image" height="180px" width="290px">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!-- This is the code for the footer-->
+    <footer class="container">
+      <div class="jumbotron" style="background-color: BlanchedAlmond;">
+        <div class="row">
+          <a class="col-sm-3" href="Lui_ContactMe.html">
+            <img src="Images/Email_Icon.png" alt="email icon" height="80px" width="80px">
+            <!--This links to the contact me page-->
+          </a> 
+          <a  class="col-sm-3" href="https://www.instagram.com/">
+            <img src="Images/Instagram_Icon.png" alt="instagram icon" height="60px" width="60px">
+          </a>
+          <a class="col-sm-6" href="https://www.dublin.k12.ca.us/dhs">
+           <img class="float-right" src="Images/DHS2.png" alt="Dublin high school logo" height="80px" width="80px" href="https://www.dublin.k12.ca.us/dhs">
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
